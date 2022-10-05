@@ -2,13 +2,13 @@ FROM node:12
 
 WORKDIR /app
 
-COPY packege*json ./
+COPY package*.json ./
 
 RUN npm install
 
 COPY . .
 
-ENV PORT=808
+ENV PORT=8080
 
 EXPOSE 8080
 
