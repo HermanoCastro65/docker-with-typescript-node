@@ -1,5 +1,5 @@
-import { TUser } from '../types/user.type'
-import { IUser } from '../interfaces/user.interface'
+import { TUser } from '../types'
+import { IUser } from '../interfaces'
 import { CreateUser } from './create.class'
 
 class User implements IUser {

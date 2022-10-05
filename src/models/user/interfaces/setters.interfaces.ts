@@ -1,4 +1,4 @@
-import { TUser } from "../types/user.type"
+import { TUser } from '../types'
 
 interface ISetUser {
   set: (user: TUser) => void

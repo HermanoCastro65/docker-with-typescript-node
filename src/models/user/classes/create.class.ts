@@ -1,5 +1,5 @@
-import { TUser } from '../types/user.type'
-import { ICreateUser } from '../interfaces/create.interface'
+import { ICreateUser } from "../interfaces"
+import { TUser } from "../types"
 
 export class CreateUser implements ICreateUser {
   creator = (user: TUser) => {
