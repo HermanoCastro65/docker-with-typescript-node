@@ -2,7 +2,7 @@ import { TUser } from '../types'
 import { IUser } from '../interfaces'
 import { CreateUser } from './create.class'
 
-class User implements IUser {
+export class User implements IUser {
   user: TUser
 
   constructor({ id, name }: TUser) {
@@ -17,5 +17,3 @@ class User implements IUser {
   setId = (id: number) => (this.user.id = id)
   setName = (name: string) => (this.user.name = name)
 }
-
-export default User
